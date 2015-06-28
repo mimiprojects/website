@@ -1,14 +1,23 @@
 body {
 	font-family: Helvetica, Georgia, sans-serif;
 	font-size: 14px;
-	max-width: 95%;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 0;
 }
 
 h1, h2, h3, h4 {
 	font-size: 20px;
 	font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
 	color: black;
+}
+
+.site-header {
+	overflow: auto;
+	background-image: url('http://www.startupbootcamp.org/assets/images/events/FinTech/hong-kong.jpg');
+	height: 500px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .logo {
@@ -20,6 +29,10 @@ h1, h2, h3, h4 {
 	padding-bottom: 5px;
 	text-transform: uppercase;
 	float: left;
+}
+
+.nav {
+	overflow: auto;
 }
 
 .nav a {
@@ -38,14 +51,6 @@ h1, h2, h3, h4 {
 
 .nav li{
 	display: inline-block;
-}
-
-.jumbotron {
-	background-image: url('http://www.startupbootcamp.org/assets/images/events/FinTech/hong-kong.jpg');
-	height: 500px;
-	max-width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .jumbotron .container {
@@ -78,6 +83,11 @@ h1, h2, h3, h4 {
 }
 
 .portfolio {
+
+}
+
+.row {
+	
 
 }
 
