@@ -1,3 +1,3 @@
 # website
 
-It will get better.
+Getting there.
