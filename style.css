@@ -209,6 +209,11 @@ input:focus, textarea:focus {
 	border: 1px solid #97d6eb;
 }
 
+/* This will align your submit button to the right */
+.submit-wrapper {
+	text-align: right;
+}
+
 #submit {
 	width: 125px;
 	height: 40px;
