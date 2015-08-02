@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mimi</title>
-		<link type="text/css" rel="stylesheet" href="style.css">
+		<link type="text/css" rel="stylesheet" href="styles/style.css">
+		<link type="text/css" rel="stylesheet" href="styles/magnific-popup.css">
 		
 	</head>
 	<body>
@@ -14,12 +15,15 @@
 					<a href="#">Mimi Szeto</a>
 				</div>
 				<nav class="nav">
+					<div id="nav-toggle" href="#"><span></span></div>
+					<div id="menu">
 					<ul class="nav-list">
 						<li><a href="#">About</a></li>
 						<li><a href="portfolio.html">Portfolio</a></li>
 						<li><a href="#">Blog</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
+					</div>
 				</nav>
 			</div>
 			<div class="jumbotron">
@@ -55,12 +59,12 @@
 			<div class="container">
 				<div class="portfolio-item">
 					<div class="two-columns">
-						<img src="library1.jpg">
+						<a class="image-popup-link" href="images/library1.jpg"><img src="images/library1.jpg"></a>
 					</div>
 						<div class="item-text two-columns">
 							<h3>Film Locations Database</h3>
 							<p>
-								The Digitial Location Library is a database containing more than 9000 listings and 250,000 photos of locations in Ontario to assist film and TV producers in finding places to shoot their project. As a key research tool during the pre-production stage of filming, the database helps industry professionals select the perfect real setting to match a scene in a feature film, TV show, documentary, commerical or short.  
+								The Digitial Location Library is a database containing more than 9000 listings and 250,000 photos of locations in Ontario to assist film and TV producers in finding places to shoot their project. As a key research tool during the pre-production stage of filming, the database helps industry professionals select the perfect real setting to match a scene in a feature film, TV series, documentary, commerical or short.  
 							</p>
 							<p>
 								<a href="#">Read more</a>
@@ -69,7 +73,7 @@
 					</div>
 					<div class="portfolio-item">
 						<div class="two-columns">
-							<img src="TLTheDrakeHotelss.jpg">
+							<a class="image-popup-link" href="images/TLTheDrakeHotelss.jpg"><img src="images/TLTheDrakeHotelss.jpg"></a>
 						</div>
 						<div class="item-text two-columns">
 						<h3>Online Listings</h3>
@@ -83,7 +87,7 @@
 					</div>
 					<div class="portfolio-item">
 						<div class="two-columns">
-							<img src="TVarticle.jpg">
+							<a class="image-popup-link" href="images/TVarticle.jpg"><img src="images/TVarticle.jpg"></a>
 						</div>
 						<div class="item-text two-columns">
 						<h3>Writing and Editing</h3>
@@ -131,9 +135,9 @@
 		<footer class="site-footer">
 			<h1>Connect</h1>
 			<p>
-				<a href="https://www.twitter.com/mimiszseto" alt="Twitter"><img src="twitter.png" id="icons"></a>
-				<a href="https://ca.linkedin.com/in/mimiszeto" alt="LinkedIn"><img src="linkedin.png" id="icons"></a>
-				<a href="mailto:info@mimiszeto.com?Subject=Hello" alt="Email"><img src="mail.png" id="icons"></a>
+				<a href="https://www.twitter.com/mimiszseto" alt="Twitter"><img src="images/twitter.png" id="icons"></a>
+				<a href="https://ca.linkedin.com/in/mimiszeto" alt="LinkedIn"><img src="images/linkedin.png" id="icons"></a>
+				<a href="mailto:info@mimiszeto.com?Subject=Hello" alt="Email"><img src="images/mail.png" id="icons"></a>
 			</p>
 			<p>
 				&copy; 2015 Mimi. 
@@ -143,7 +147,8 @@
 			</p>
 		</footer>	
 
-		<!-- <script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="main.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="scripts/jquery.magnific-popup.js"></script>
+		<!-- <script src="scripts/script.js"></script> -->
 	</body>
 </html>

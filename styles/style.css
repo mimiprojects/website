@@ -209,9 +209,9 @@ input:focus, textarea:focus {
 	border: 1px solid #97d6eb;
 }
 
-/* This will align your submit button to the right */
 .submit-wrapper {
 	text-align: right;
+	max-width: 450px;
 }
 
 #submit {
@@ -252,14 +252,28 @@ input:focus, textarea:focus {
 	form {
 		padding: 4em;
 	}
+	input, textarea {
+		max-width: 450px;
+	}
+	.submit-wrapper {
+		max-width: 450px;
+	}
 }
 
 @media screen and (max-width: 500px) {
+	.name {
+		float: none;
+	}
 	.nav li {
 		display: block;
+		padding: 5px;
 	}
 	.nav {
 		float: none;
+		display: block;
+	}
+	.nav-list {
+		padding: 5px;
 	}
 	.logo {
 		float: none;
@@ -267,7 +281,80 @@ input:focus, textarea:focus {
 	form {
 		padding: 1em;
 	}
+	input, textarea {
+		max-width: 450px;
+	}
+	.submit-wrapper {
+		max-width: 450px;
+	}
 }
+	/*.nav-bar #nav-toggle {
+		color: black;
+	}
+	#nav-toggle {
+	  background-color: gray;
+	  color: black;
+	  position: absolute;
+	  float: right;
+	  margin: 5px;
+	  left: 80%;
+	  top: 0;
+	  cursor: pointer;
+	  padding: 40px 60px;
+	  transition: all 0.5s $ease-out-back;
+	}
+	#nav-toggle span,
+	#nav-toggle span:before,
+	#nav-toggle span:after {
+	  display: block;
+	  position: absolute;
+	  height: 100px;
+	  width: 100px;
+	  background-color: gray;
+	  border-radius: 9px;
+	  cursor: pointer;
+	  content: '';
+
+	  transition: all 0.25s $ease-out-back;
+	}
+
+	#nav-toggle span:before {
+	  top: 25px;
+	}
+
+	#nav-toggle span:after {
+	  bottom: -25px;
+	}
+
+	#nav-toggle.open span {
+	  background-color: rgba(255, 255, 255, 0);
+	}
+
+	#nav-toggle.open span:before {
+	  top: 0;
+	  transform: rotateZ(45);
+	}
+
+	#nav-toggle.open span:after {
+	  bottom: 0;
+	  transform: rotateZ(-45);
+	}
+
+	#menu {
+	  background-color: white;
+	  position: fixed;
+	  height: 30%;
+	  width: 100%;
+	  top: -70%;
+
+	  transition: top 0.25s $ease-out-sine;
+	  
+	  &.open {
+	    top 0;
+	  }
+	}*/
+
+
 
 
 
